@@ -92,7 +92,7 @@ export function ElminaMap({ onOpenReportModal, onWalkComplete }: { onOpenReportM
   const sel = 'flex-1 min-w-0 rounded-2xl bg-black/5 px-3 py-2.5 text-sm font-semibold text-[#1c1c1e] outline-none';
   return (
     <div className="relative w-full h-[calc(100dvh-8.5rem)] lg:h-[calc(100dvh-4rem)] overflow-hidden">
-      <div ref={el} className="absolute inset-0" />
+      <div ref={el} className="absolute inset-0 h-full w-full" />
       <div className="absolute top-3 left-3 right-3 flex items-start justify-between gap-2 pointer-events-none">
         <div className={`flex p-1 rounded-full pointer-events-auto ${glass}`}>
           {(Object.keys(MODES) as Mode[]).map((k) => (
