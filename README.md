@@ -1,2 +1,2 @@
 # ecopath-trial-11
-blah
+This is the Github Repository for our EcoPath project
